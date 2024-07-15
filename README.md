@@ -29,3 +29,11 @@ description: 'The impact of COVID-19 pandemic in figures'
   yAxis="pop_density_mile2"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'data.csv'
+  }}
+  title="Density"
+  xAxis="state"
+  yAxis="pop_2024"
+/>
