@@ -10,3 +10,12 @@ description: 'The impact of COVID-19 pandemic in figures'
     url: 'data.csv'    
   }}
 />
+
+<PlotlyBarChart
+  data={{
+    url: 'data.csv'
+  }}
+  title="Most populated cities"
+  xAxis="city"
+  yAxis="pop_2024"
+/>
