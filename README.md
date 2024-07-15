@@ -35,6 +35,5 @@ description: 'The impact of COVID-19 pandemic in figures'
   }}
   title="Population in 2020 vs 2024"
   xAxis="city"
-  yAxis="pop_2024"
   yAxis="pop_2020"
 />
