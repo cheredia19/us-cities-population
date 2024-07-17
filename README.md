@@ -39,16 +39,33 @@ description: 'The impact of COVID-19 pandemic in figures'
 />
 
 <Vega
-  {
-  "table": [
-    {
-      "y": 8740292,
-      "x": 2020
+  data={{
+    table: [
+      {
+        x: 2020,
+        y: 8740292
+      },
+      {
+        x: 2024,
+        y: 8097282
+      }
+    ]
+  }}
+  spec={{
+    $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+    data: {
+      name: 'table'
     },
-    {
-      "y": 8097282,
-      "x": 2024
-    }  
-  ]
-} 
+    encoding: {
+      x: {
+        field: 'x',
+        type: 'ordinal'
+      },
+      y: {
+        field: 'y',
+        type: 'quantitative'
+      }
+    },
+    mark: 'bar'
+  }}
 />
