@@ -42,12 +42,20 @@ description: 'The impact of COVID-19 pandemic in figures'
   data={{
     table: [
       {
-        x: "NY 2020",
+        x: "NY2020",
         y: 8740292
       },
       {
-        x: "NY 2024",
+        x: "NY2024",
         y: 8097282
+      }
+      {
+        x: "LA2020",
+        y: 3895848
+      }
+      {
+        x: "LA2024",
+        y: 3795936
       }
     ]
   }}
