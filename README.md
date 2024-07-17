@@ -58,11 +58,13 @@ description: 'The impact of COVID-19 pandemic in figures'
     },
     encoding: {
       x: {
-        field: 'New York',
+        field: 'x',
+        title: 'New York',
         type: 'ordinal'
       },
       y: {
-        field: 'Population',
+        field: 'y',
+        title: 'Population',
         type: 'quantitative'
       }
     },
