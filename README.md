@@ -48,6 +48,7 @@ description: 'The impact of COVID-19 pandemic in figures'
     {
       "y": 8097282,
       "x": 2024
-    ]
-  } 
+    }  
+  ]
+} 
 />
