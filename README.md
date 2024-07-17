@@ -31,9 +31,9 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'less_pop.csv'
+    url: '10k_loss_pop.csv'
   }}
-  title="Cities with less population in 2024 compared to 2020"
+  title="US cities that lost +10K people in 2024 compared to 2020"
   xAxis="city"
   yAxis="pop_change"
 />
