@@ -51,7 +51,7 @@ description: 'The impact of COVID-19 pandemic in figures'
   data={{
     url: 'less_1k_pop_loss.csv'
   }}
-  title="US cities that lost less than +1K people in 2024 compared to 2020"
+  title="US cities that lost less than 1,000 people in 2024 compared to 2020"
   xAxis="city"
   yAxis="population_loss"
 />
@@ -60,7 +60,16 @@ description: 'The impact of COVID-19 pandemic in figures'
   data={{
     url: 'less_1k_pop_won.csv'
   }}
-  title="US cities that registered more than +1K people in 2024 compared to 2020"
+  title="US cities that registered more than 1,000 people in 2024 compared to 2020"
+  xAxis="city"
+  yAxis="population_won"
+/>
+
+<PlotlyBarChart
+  data={{
+    url: '1k_pop_won.csv'
+  }}
+  title="US cities that registered +1K people in 2024 compared to 2020"
   xAxis="city"
   yAxis="population_won"
 />
