@@ -48,11 +48,11 @@ description: 'The impact of COVID-19 pandemic in figures'
       {
         x: "NY2024",
         y: 8097282
-      }
+      },
       {
         x: "LA2020",
         y: 3895848
-      }
+      },
       {
         x: "LA2024",
         y: 3795936
