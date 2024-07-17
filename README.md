@@ -153,6 +153,7 @@ description: 'The impact of COVID-19 pandemic in figures'
     $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
     title: "Population change in US major cities",
     data: {
+      name: 'table',
       url: 'table.csv'
     },
     encoding: {
