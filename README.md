@@ -31,11 +31,11 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'data.csv'
+    url: 'less_pop.csv'
   }}
-  title="Change in population between 2020 and 2024"
+  title="Cities with less population in 2024 compared to 2020"
   xAxis="city"
-  yAxis="change_24_20"
+  yAxis="pop_change"
 />
 
 <Vega
