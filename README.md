@@ -37,3 +37,17 @@ description: 'The impact of COVID-19 pandemic in figures'
   xAxis="city"
   yAxis="change_24_20"
 />
+
+<Vega
+  {
+  "table": [
+    {
+      "y": 8740292,
+      "x": 2020
+    },
+    {
+      "y": 8097282,
+      "x": 2024
+    ]
+  } 
+/>
