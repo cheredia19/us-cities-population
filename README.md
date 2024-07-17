@@ -126,7 +126,9 @@ description: 'The impact of COVID-19 pandemic in figures'
   spec={{
     $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
     title: "Population change in US major cities",
-    data: [];
+    data: {
+      name: 'table'
+    },
     encoding: {
       x: {
         field: 'x',
@@ -151,7 +153,7 @@ description: 'The impact of COVID-19 pandemic in figures'
     $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
     title: "Population change in US major cities",
     data: {
-      name: 'table.csv'
+      url: 'table.csv'
     },
     encoding: {
       x: {
