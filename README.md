@@ -63,8 +63,8 @@ description: 'The impact of COVID-19 pandemic in figures'
       },
       {
         x: "CHI-2024",
-        y: 2638159,
-      }
+        y: 2638159
+      },
       {
         x: "HOU-2020",
         y: 2299269
