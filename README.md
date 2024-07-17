@@ -29,11 +29,11 @@ description: 'The impact of COVID-19 pandemic in figures'
   yAxis="pop_density_mile2"
 />
 
-<PlotlyLineChart
+<PlotlyBarChart
   data={{
     url: 'data.csv'
   }}
-  title="Population in 2020 vs 2024"
+  title="Change in population between 2020 and 2024"
   xAxis="city"
-  yAxis="pop_2020"
+  yAxis="change_24_20"
 />
