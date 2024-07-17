@@ -42,24 +42,25 @@ description: 'The impact of COVID-19 pandemic in figures'
   data={{
     table: [
       {
-        x: 2020,
+        x: "NY 2020",
         y: 8740292
       },
       {
-        x: 2024,
+        x: "NY 2024",
         y: 8097282
       }
     ]
   }}
   spec={{
     $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+    title: "Population change in US major cities"
     data: {
       name: 'table'
     },
     encoding: {
       x: {
         field: 'x',
-        title: 'New York',
+        title: 'Cities',
         type: 'ordinal'
       },
       y: {
