@@ -47,6 +47,15 @@ description: 'The impact of COVID-19 pandemic in figures'
   yAxis="population_loss"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'less_1k_pop_loss.csv'
+  }}
+  title="US cities that lost less than +1K people in 2024 compared to 2020"
+  xAxis="city"
+  yAxis="population_loss"
+/>
+
 <Vega
   data={{
     table: [
