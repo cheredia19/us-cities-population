@@ -85,7 +85,7 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'density_4k.csv'
+    url: 'pop_density_4k.csv'
   }}
   title="US cities with density above 4K"
   xAxis="city"
