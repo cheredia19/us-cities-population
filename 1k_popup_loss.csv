@@ -19,10 +19,10 @@ population_loss,city
 -6776,Detroit
 -6630,Toledo
 -6564,East Los Angeles
--6536,Pasadena
+-6536,Pasadena (CA)
 -6424,Anchorage
 -6339,Montgomery
--6203,Pasadena
+-6203,Pasadena (TX)
 -6152,Albuquerque
 -5919,Oakland
 -5640,Ann Arbor
@@ -71,9 +71,9 @@ population_loss,city
 -2400,Cedar Rapids
 -2347,Provo
 -2343,Tulsa
--2339,Springfield
+-2339,Springfield (IL)
 -2292,Westminster
--2144,Springfield
+-2144,Springfield (MA)
 -1968,Chula Vista
 -1960,Corpus Christi
 -1927,Akron
