@@ -13,11 +13,11 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'data.csv'
+    url: 'pop_above_500k.csv'
   }}
-  title="Most populated cities"
+  title="US cities with population above 500K people in 2024"
   xAxis="city"
-  yAxis="pop_2024"
+  yAxis="population_2024"
 />
 
 <PlotlyBarChart
