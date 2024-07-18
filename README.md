@@ -13,7 +13,7 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'pop_above_500k.csv'
+    url: 'pop_less_500k.csv'
   }}
   title="US cities with population above 500K people in 2024"
   xAxis="city"
