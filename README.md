@@ -83,6 +83,15 @@ description: 'The impact of COVID-19 pandemic in figures'
   yAxis="population_won"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'density_4k.csv'
+  }}
+  title="US cities with density above 4K"
+  xAxis="city"
+  yAxis="density"
+/>
+
 <Vega
   data={{
     table: [
