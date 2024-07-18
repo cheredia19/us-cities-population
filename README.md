@@ -94,7 +94,7 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'density_2_5k.csv'
+    url: 'pop_density_2_5k.csv'
   }}
   title="US cities with density between 2.5K and below 4K"
   xAxis="city"
