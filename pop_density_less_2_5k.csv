@@ -31,7 +31,7 @@ density,city
 2080,Tulsa
 2070,Memphis
 2052,High Point
-2049,Springfield
+2049,Springfield (MO)
 2030,Topeka
 2030,Knoxville
 2003,Spring Hill
@@ -39,7 +39,7 @@ density,city
 1961,Pueblo
 1960,Amarillo
 1948,Corpus Christi
-1936,Columbia
+1936,Columbia (MO)
 1932,Tyler
 1921,Broken Arrow
 1917,Salt Lake City
@@ -51,13 +51,13 @@ density,city
 1846,Virginia Beach
 1846,Midland
 1830,Tuscaloosa
-1828,Springfield
+1828,Springfield (IL)
 1825,Cedar Rapids
 1747,Concord
 1739,Lancaster
 1698,Little Rock
 1693,Denton
-1626,Kansas City
+1626,Kansas City (MO)
 1623,Palm Bay
 1618,Shreveport
 1607,Waco
@@ -81,7 +81,7 @@ density,city
 1299,Mobile
 1259,Jackson
 1221,Abilene
-1217,Kansas City
+1217,Kansas City (KS)
 1212,Montgomery
 1203,South Fulton
 1170,Oklahoma City
@@ -89,7 +89,7 @@ density,city
 1125,Lexington
 1109,Athens-Clarke County (balance)
 1091,Rio Rancho
-1045,Columbia
+1045,Columbia (SC)
 1022,Huntsville
 925,Columbus
 754,Chesapeake
