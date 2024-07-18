@@ -22,15 +22,6 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 <PlotlyBarChart
   data={{
-    url: 'data.csv'
-  }}
-  title="Density"
-  xAxis="city"
-  yAxis="pop_density_mile2"
-/>
-
-<PlotlyBarChart
-  data={{
     url: '10k_pop_loss.csv'
   }}
   title="US cities that lost +10K population in 2024 compared to 2020"
@@ -91,6 +82,16 @@ description: 'The impact of COVID-19 pandemic in figures'
   xAxis="city"
   yAxis="density"
 />
+
+<PlotlyBarChart
+  data={{
+    url: 'density_2_5k.csv'
+  }}
+  title="US cities with density between 2.5K and below 4K"
+  xAxis="city"
+  yAxis="density"
+/>
+
 
 <Vega
   data={{
