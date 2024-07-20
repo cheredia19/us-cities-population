@@ -5,7 +5,7 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 *By [César Heredia](https://x.com/cahered), data journalist*
 
-New York City has recorded a population loss of more than 600 thousand people between 2020 and 2024, according to data from 300 selected cities in the United States. Apart from NYC, the population of the other 21 cities from 16 states has declined by more than 10K. Five of those cities are in California.
+New York City has recorded a population loss of **more than 600 thousand people** between 2020 and 2024, according to [data from 300 selected cities in the United States](https://www.kaggle.com/datasets/dataanalyst001/population-of-all-us-cities-2024). Apart from NYC, the population of the other 21 cities from 16 states has declined by more than 10K. Five of those are in California.
 
 <PlotlyBarChart
   data={{
@@ -15,6 +15,21 @@ New York City has recorded a population loss of more than 600 thousand people be
   xAxis="city_state"
   yAxis="pop_loss"
 />
+
+Ninety-five cities from 29 US states have seen their population diminish between 1K and 9K. Twenty-nine out of these 95 cities belong to California. No other state registered more than seven cities with such losses.
+
+<PlotlyBarChart
+  data={{
+    url: '1k_loss.csv'
+  }}
+  title="US cities that lost +1K population in 2024 compared to 2020"
+  xAxis="city_state"
+  yAxis="pop_loss"
+/>
+
+
+
+
 
 <FlatUiTable
   data={{
@@ -41,14 +56,7 @@ New York City has recorded a population loss of more than 600 thousand people be
 />
 
 
-<PlotlyBarChart
-  data={{
-    url: '1k_popup_loss.csv'
-  }}
-  title="US cities that lost +1K population in 2024 compared to 2020"
-  xAxis="city"
-  yAxis="population_loss"
-/>
+
 
 <PlotlyBarChart
   data={{
