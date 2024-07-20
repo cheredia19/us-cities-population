@@ -5,6 +5,17 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 *By [César Heredia](https://x.com/cahered), data journalist*
 
+New York City has recorded a population loss of more than 600 thousand people between 2020 and 2024, according to data from 300 selected cities in the United States. Apart from NYC, the population of the other 21 cities has declined by more than 10K.
+
+<PlotlyBarChart
+  data={{
+    url: '10k_pop_loss.csv'
+  }}
+  title="US cities that lost +10K population in 2024 compared to 2020"
+  xAxis="city"
+  yAxis="population_loss"
+/>
+
 <FlatUiTable
   data={{
     url: 'data.csv'    
@@ -29,14 +40,6 @@ description: 'The impact of COVID-19 pandemic in figures'
   yAxis="population_2024"
 />
 
-<PlotlyBarChart
-  data={{
-    url: '10k_pop_loss.csv'
-  }}
-  title="US cities that lost +10K population in 2024 compared to 2020"
-  xAxis="city"
-  yAxis="population_loss"
-/>
 
 <PlotlyBarChart
   data={{
