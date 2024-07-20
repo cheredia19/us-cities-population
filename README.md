@@ -29,7 +29,7 @@ Ninety-five cities from 29 US states have seen their population diminish between
 
 <PlotlyBarChart
   data={{
-    url: 'change_-1k_1k.csv'
+    url: 'change_btw_-1k_1k.csv'
   }}
   title="US cities that population has changed between -1K and 1K"
   xAxis="city_state"
