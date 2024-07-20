@@ -65,18 +65,6 @@ The population of 38 out of the 300 selected cities changed between -1,000 and 1
 />
 
 
-
-
-
-<PlotlyBarChart
-  data={{
-    url: 'less_1k_pop_won.csv'
-  }}
-  title="US cities that registered more than 1,000 population in 2024 compared to 2020"
-  xAxis="city"
-  yAxis="population_won"
-/>
-
 <PlotlyBarChart
   data={{
     url: '1k_popup_won.csv'
