@@ -27,9 +27,16 @@ Ninety-five cities from 29 US states have seen their population diminish between
   yAxis="pop_loss"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'change_-1k_1k.csv'
+  }}
+  title="US cities that population has changed between -1K and 1K"
+  xAxis="city"
+  yAxis="population_loss"
+/>
 
-
-
+## Full data
 
 <FlatUiTable
   data={{
@@ -58,14 +65,6 @@ Ninety-five cities from 29 US states have seen their population diminish between
 
 
 
-<PlotlyBarChart
-  data={{
-    url: 'less_1k_pop_loss.csv'
-  }}
-  title="US cities that lost less than 1,000 population in 2024 compared to 2020"
-  xAxis="city"
-  yAxis="population_loss"
-/>
 
 <PlotlyBarChart
   data={{
