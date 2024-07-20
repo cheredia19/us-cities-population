@@ -32,8 +32,8 @@ Ninety-five cities from 29 US states have seen their population diminish between
     url: 'change_-1k_1k.csv'
   }}
   title="US cities that population has changed between -1K and 1K"
-  xAxis="city"
-  yAxis="population_loss"
+  xAxis="city_state"
+  yAxis="pop_loss"
 />
 
 ## Full data
