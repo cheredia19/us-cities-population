@@ -27,6 +27,8 @@ Ninety-five cities from 29 US states have seen their population diminish between
   yAxis="pop_loss"
 />
 
+The population of 38 out of the 300 selected cities changed between -1,000 and 1,000 since 2020. Among them are Pittsburgh (PA), Dallas and border-city El Paso (TX), Jersey City (NJ), and five Californian cities.
+
 <PlotlyBarChart
   data={{
     url: 'change_btw_-1k_1k.csv'
