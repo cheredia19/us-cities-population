@@ -5,7 +5,15 @@ description: 'The impact of COVID-19 pandemic in figures'
 
 *By [César Heredia](https://x.com/cahered), data journalist*
 
-New York City has recorded a population loss of **more than 600 thousand people** between 2020 and 2024, according to [data from 300 selected cities in the United States](https://www.kaggle.com/datasets/dataanalyst001/population-of-all-us-cities-2024). Apart from NYC, the population of the other 21 cities from 16 states has declined by more than 10K. Five of those are in California.
+It's no doubt that COVID-19 took a toll on the world population. An estimated [seven million people lost their lives](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) because of the pandemic.
+
+And the United States did not escape from that reality.
+
+Although it can not be assured that all deaths were provoked by COVID-19, it has been one of the main reasons of deceases inthe US since 2020. 
+
+For example, New York City has recorded a population loss of **more than 600 thousand people** between 2020 and 2024, according to [data from 300 selected cities in the United States](https://www.kaggle.com/datasets/dataanalyst001/population-of-all-us-cities-2024). New York State has registered 83,374 deaths because of covid, [Worldmeters](https://www.worldometers.info/coronavirus/usa/new-york/) states.
+
+Apart from NYC, the population of the other 21 cities from 16 states has declined by more than 10K. Five of those are in California.
 
 <PlotlyBarChart
   data={{
@@ -139,7 +147,7 @@ Despite being the most populated city in Alaska, Anchorage gathers only 167 peop
   yAxis="density"
 />
 
-The complete list of 300 cities in the United States used for this report is below. Remember that you can filter per population in 2020 and 2024, city, state, population change in the mentioned period, density, and area in square miles.
+The complete list of 300 cities in the United States used for this report is below. Remember that you can filter by population in 2020 and 2024, city, state, population change in the mentioned period, density, and area in square miles.
 
 <FlatUiTable
   data={{
