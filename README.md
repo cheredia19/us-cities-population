@@ -18,6 +18,15 @@ New York City has recorded a population loss of **more than 600 thousand people*
 
 However, by rate, San Francisco (CA) was the city that **lost the highest percent of population** in the period above (-0.09%), whiie the highest increase was [New Braunfels (TX)](https://newbraunfels.gov), located in Comal county. Their inhabitants rose by 91,643 to 117,396, a growth of 0.28%.
 
+<PlotlyBarChart
+  data={{
+    url: 'change_rate.csv'
+  }}
+  title="300 US cities ordered by population change rate in 2024 compared to 2020"
+  xAxis="city_state"
+  yAxis="change_rate"
+/>
+
 Ninety-five towns from 29 US states have seen their population diminish between 1K and 9K. Twenty-nine out of these 95 cities belong to California. No other state registered more than seven cities with such losses.
 
 <PlotlyBarChart
