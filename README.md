@@ -62,7 +62,7 @@ In the meantime, the population of 47 cities from 16 states climbed by ten or mo
   yAxis="pop_won"
 />
 
-### Most and least populated cities
+## Most and least populated cities
 
 According to data, 38 of the 300 selected cities recorded a population greater than 500,000 people in 2024, with New York City as the most populated of all. Los Angeles and Chicago complete the podium, despite losing around 100K each.
 
@@ -75,6 +75,15 @@ According to data, 38 of the 300 selected cities recorded a population greater t
   yAxis="population"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'popup_below_500k.csv'
+  }}
+  title="US cities with population below 500K people in 2024"
+  xAxis="city"
+  yAxis="population_2024"
+/>
+
 ## Full data
 
 <FlatUiTable
@@ -84,14 +93,6 @@ According to data, 38 of the 300 selected cities recorded a population greater t
 />
 
 
-<PlotlyBarChart
-  data={{
-    url: 'popup_below_500k.csv'
-  }}
-  title="US cities with population below 500K people in 2024"
-  xAxis="city"
-  yAxis="population_2024"
-/>
 
 <PlotlyBarChart
   data={{
