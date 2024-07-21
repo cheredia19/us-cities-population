@@ -106,7 +106,7 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
   yAxis="density"
 />
 
-It is no surprise that New York City has the highest population per square mile among the 300 selected US cities for this report. Indeed, **50% of the most dense cities on the list belong to the Northeastern zone**. Jersey City, Paterson, and Newark (2nd, 3rd and 9th spot), Cambridge, and Boston (4th and 7th) make the top ten.
+It is no surprise that New York City has the highest population per square mile among the 300 selected US cities for this report. Indeed, **50% of the 10 most dense areas on the list belong to the Northeastern zone**. Jersey City, Paterson, and Newark (2nd, 3rd and 9th spot), Cambridge, and Boston (4th and 7th) make the top ten.
 
 <PlotlyBarChart
   data={{
@@ -117,7 +117,7 @@ It is no surprise that New York City has the highest population per square mile 
   yAxis="density"
 />
 
-
+Thirty-eight towns from California and Texas (19 each) have a population density between 2,500 and 4,000 people per square mile.
 
 <PlotlyBarChart
   data={{
