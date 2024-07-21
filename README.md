@@ -42,14 +42,7 @@ The population of 38 out of the 300 selected cities changed between -1,000 and 1
 
 Other 98 cities across 29 selected US states expanded from 1,000 to 10,000 people in four years. 37.9% of them are in Texas or California, including Arlington (TX), Sacramento, and San Diego (CA).
 
-<PlotlyBarChart
-  data={{
-    url: '1k_won.csv'
-  }}
-  title="US cities that population has increased between 1K and 10K"
-  xAxis="city_state"
-  yAxis="pop_won"
-/>
+# GRAPHIC MISSING
 
 <PlotlyBarChart
   data={{
