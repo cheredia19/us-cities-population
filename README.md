@@ -99,6 +99,15 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
 
 <PlotlyBarChart
   data={{
+    url: 'density.csv'
+  }}
+  title="Density (population per square miles) of 300 selected US cities"
+  xAxis="city_state"
+  yAxis="density"
+/>
+
+<PlotlyBarChart
+  data={{
     url: 'density_4k.csv'
   }}
   title="US cities with density above 4K"
