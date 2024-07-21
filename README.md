@@ -18,7 +18,7 @@ New York City has recorded a population loss of **more than 600 thousand people*
 
 However, by rate, San Francisco (CA) was the city that **lost the highest percent of population** in the period above (-0.09%), whiie the highest increase was [New Braunfels (TX)](https://newbraunfels.gov), located in Comal county. Their inhabitants rose by 91,643 to 117,396, a growth of 0.28%.
 
-Ninety-five cities from 29 US states have seen their population diminish between 1K and 9K. Twenty-nine out of these 95 cities belong to California. No other state registered more than seven cities with such losses.
+Ninety-five towns from 29 US states have seen their population diminish between 1K and 9K. Twenty-nine out of these 95 cities belong to California. No other state registered more than seven cities with such losses.
 
 <PlotlyBarChart
   data={{
@@ -40,7 +40,7 @@ The population of 38 out of the 300 selected cities changed between -1,000 and 1
   yAxis="pop_loss"
 />
 
-Other 98 cities across 29 selected US states expanded from 1,000 to 10,000 people in four years. 37.9% of them are in Texas or California, including Arlington (TX), Sacramento, and San Diego (CA).
+Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people in four years. 37.9% of them are in Texas or California, including Arlington (TX), Sacramento, and San Diego (CA).
 
 <PlotlyBarChart
   data={{
@@ -61,6 +61,10 @@ In the meantime, the population of 47 cities from 16 states climbed by ten or mo
   xAxis="city_state"
   yAxis="pop_won"
 />
+
+### Most and least populated cities
+
+According to data, 
 
 ## Full data
 
