@@ -95,15 +95,7 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
   yAxis="population"
 />
 
-## Full data
-
-<FlatUiTable
-  data={{
-    url: 'data.csv'    
-  }}
-/>
-
-
+## "Full house"
 
 <PlotlyBarChart
   data={{
@@ -130,4 +122,12 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
   title="US cities with density below 2.5K"
   xAxis="city"
   yAxis="density"
+/>
+
+## Full data
+
+<FlatUiTable
+  data={{
+    url: 'data.csv'    
+  }}
 />
