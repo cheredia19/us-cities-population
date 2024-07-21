@@ -77,11 +77,11 @@ According to data, 38 of the 300 selected cities recorded a population greater t
 
 <PlotlyBarChart
   data={{
-    url: 'popup_below_500k.csv'
+    url: 'below_500k.csv'
   }}
   title="US cities with population below 500K people in 2024"
-  xAxis="city"
-  yAxis="population_2024"
+  xAxis="city_state"
+  yAxis="population"
 />
 
 ## Full data
