@@ -99,28 +99,28 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
 
 <PlotlyBarChart
   data={{
-    url: 'pop_density_4k.csv'
+    url: 'density_4k.csv'
   }}
   title="US cities with density above 4K"
-  xAxis="city"
+  xAxis="city_state"
   yAxis="density"
 />
 
 <PlotlyBarChart
   data={{
-    url: 'pop_density_2_5k.csv'
+    url: 'density_2_5k.csv'
   }}
-  title="US cities with density between 2.5K and below 4K"
-  xAxis="city"
+  title="US cities with density between 2.5K and 4K"
+  xAxis="city_state"
   yAxis="density"
 />
 
 <PlotlyBarChart
   data={{
-    url: 'pop_density_less_2_5k.csv'
+    url: 'density_less_2_5k.csv'
   }}
   title="US cities with density below 2.5K"
-  xAxis="city"
+  xAxis="city_state"
   yAxis="density"
 />
 
