@@ -139,7 +139,7 @@ Despite being the most populated city in Alaska, Anchorage gathers only 167 peop
   yAxis="density"
 />
 
-## Full data
+The complete list of 300 cities in the United States used for this report is below. Remember that you can filter per population in 2020 and 2024, city, state, population change in the mentioned period, density, and area in square miles.
 
 <FlatUiTable
   data={{
