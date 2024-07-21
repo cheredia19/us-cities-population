@@ -44,7 +44,7 @@ Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people
 
 <PlotlyBarChart
   data={{
-    url: '+1k_won.csv'
+    url: '1k_won.csv'
   }}
   title="US cities that population has increased between 1K and 10K"
   xAxis="city_state"
@@ -66,6 +66,15 @@ In the meantime, the population of 47 cities from 16 states climbed by ten or mo
 
 According to data, 
 
+<PlotlyBarChart
+  data={{
+    url: 'above_500k.csv'
+  }}
+  title="US cities with population above 500K people in 2024"
+  xAxis="city"
+  yAxis="population_2024"
+/>
+
 ## Full data
 
 <FlatUiTable
@@ -74,14 +83,6 @@ According to data,
   }}
 />
 
-<PlotlyBarChart
-  data={{
-    url: 'pop_above_500k.csv'
-  }}
-  title="US cities with population above 500K people in 2024"
-  xAxis="city"
-  yAxis="population_2024"
-/>
 
 <PlotlyBarChart
   data={{
