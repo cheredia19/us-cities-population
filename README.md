@@ -51,7 +51,7 @@ Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people
   yAxis="pop_won"
 />
 
-In the meantime, the population of 47 cities from 16 states climbed by ten or more thousand between 2020 and 2024. 11 Texan cities entered this group. **San Antonio recorded the greatest increase** (+74K) of the 300 analyzed in this report.
+In the meantime, the population of 47 cities from 16 states climbed by ten or more thousand between 2020 and 2024. 11 Texan cities entered this group. **San Antonio recorded the largest increase** (+74K) of the 300 analyzed in this report.
 
 <PlotlyBarChart
   data={{
@@ -64,7 +64,7 @@ In the meantime, the population of 47 cities from 16 states climbed by ten or mo
 
 ### Most and least populated cities
 
-According to data, 
+According to data, 38 of the 300 selected cities recorded a population greater than 500,000 people in 2024, with New York City as the most populated of all. Los Angeles and Chicago complete the podium, despite losing around 100K each.
 
 <PlotlyBarChart
   data={{
