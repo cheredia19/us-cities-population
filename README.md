@@ -68,7 +68,7 @@ According to data,
 
 <PlotlyBarChart
   data={{
-    url: 'pop_above_500k.csv'
+    url: '500k_more.csv'
   }}
   title="US cities with population above 500K people in 2024"
   xAxis="city_state"
