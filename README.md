@@ -101,7 +101,7 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
   data={{
     url: 'density.csv'
   }}
-  title="Density (population per square miles) of 300 selected US cities"
+  title="Density (population per square mile) of 300 selected US cities"
   xAxis="city_state"
   yAxis="density"
 />
@@ -127,6 +127,8 @@ Thirty-eight towns from California and Texas (19 each) have a population density
   xAxis="city_state"
   yAxis="density"
 />
+
+Despite being the most populated city in Alaska, Anchorage gathers only 167 people per square mile, **the least dense of the entire list**. Apart from this town, three cities from Georgia, two in Arizona, and one in Virginia and Oklahoma **have a density of less than 1000 people per square mile**.
 
 <PlotlyBarChart
   data={{
