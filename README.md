@@ -117,7 +117,7 @@ Fifty-five towns from California, 34 from Texas, and 23 from Florida registered 
 
 <PlotlyBarChart
   data={{
-    url: 'density_less_2_5k.csv'
+    url: 'density_below_2_5k.csv'
   }}
   title="US cities with density below 2.5K"
   xAxis="city_state"
