@@ -9,7 +9,7 @@ It's no doubt that COVID-19 took a toll on the world population. An estimated [s
 
 And the United States did not escape from that reality.
 
-Although it can not be assured that all deaths were provoked by COVID-19, it has been one of the main reasons of deceases inthe US since 2020. 
+Although it can not be assured that all deaths were provoked by COVID-19, it has been one of the main reasons of deceases in the US since 2020. 
 
 For example, New York City has recorded a population loss of **more than 600 thousand people** between 2020 and 2024, according to [data from 300 selected cities in the United States](https://www.kaggle.com/datasets/dataanalyst001/population-of-all-us-cities-2024). New York State has registered 83,374 deaths because of covid, [Worldmeters](https://www.worldometers.info/coronavirus/usa/new-york/) states.
 
