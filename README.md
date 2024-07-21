@@ -29,7 +29,7 @@ Ninety-five towns from 29 US states have seen their population diminish between 
   yAxis="pop_loss"
 />
 
-The population of 38 out of the 300 selected cities changed between -1,000 and 1,000 since 2020. Among them are Pittsburgh (PA), Dallas and border-city El Paso (TX), Jersey City (NJ), and five Californian cities.
+The population of 38 out of the 300 selected cities **changed between -1,000 and 1,000** since 2020. Among them are Pittsburgh (PA), Dallas and border-city El Paso (TX), Jersey City (NJ), and five Californian cities.
 
 <PlotlyBarChart
   data={{
@@ -40,7 +40,7 @@ The population of 38 out of the 300 selected cities changed between -1,000 and 1
   yAxis="pop_loss"
 />
 
-Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people in four years. 37.9% of them are in Texas or California, including Arlington (TX), Sacramento, and San Diego (CA).
+Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people in four years. **37.9% of them are in Texas or California**, including Arlington (TX), Sacramento, and San Diego (CA).
 
 <PlotlyBarChart
   data={{
@@ -51,7 +51,7 @@ Other 98 areas across 29 selected US states expanded from 1,000 to 10,000 people
   yAxis="pop_won"
 />
 
-In the meantime, the population of 47 cities from 16 states climbed by ten or more thousand between 2020 and 2024. 11 Texan cities entered this group. San Antonio recorded the greatest increase (+74K) of the 300 analyzed in this report.
+In the meantime, the population of 47 cities from 16 states climbed by ten or more thousand between 2020 and 2024. 11 Texan cities entered this group. **San Antonio recorded the greatest increase** (+74K) of the 300 analyzed in this report.
 
 <PlotlyBarChart
   data={{
@@ -71,8 +71,8 @@ According to data,
     url: 'above_500k.csv'
   }}
   title="US cities with population above 500K people in 2024"
-  xAxis="city"
-  yAxis="population_2024"
+  xAxis="city_state"
+  yAxis="population"
 />
 
 ## Full data
