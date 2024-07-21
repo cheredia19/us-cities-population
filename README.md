@@ -44,7 +44,7 @@ Other 98 cities across 29 selected US states expanded from 1,000 to 10,000 peopl
 
 <PlotlyBarChart
   data={{
-    url: '1k_won.csv'
+    url: '+1k_won.csv'
   }}
   title="US cities that population has increased between 1K and 10K"
   xAxis="city_state"
