@@ -53,11 +53,11 @@ Other 98 cities across 29 selected US states expanded from 1,000 to 10,000 peopl
 
 <PlotlyBarChart
   data={{
-    url: '10k_pop_won.csv'
+    url: '10k_won.csv'
   }}
   title="US cities that registered +10K population in 2024 compared to 2020"
-  xAxis="city"
-  yAxis="population_won"
+  xAxis="city_state"
+  yAxis="pop_won"
 />
 
 ## Full data
